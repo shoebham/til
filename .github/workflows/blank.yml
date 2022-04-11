@@ -33,5 +33,6 @@ jobs:
       - name: Run a multi-line script
         run: |
           echo "Compiling..."
+          chmod +x ./compile.sh
           ./compile.sh
           
